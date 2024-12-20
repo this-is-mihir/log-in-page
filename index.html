@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <button class="menu-toggle" id="menu-toggle">
+            <span class="menu-bar"></span>
+            <span class="menu-bar"></span>
+            <span class="menu-bar"></span>
+        </button>
+        <h1 class="logo">MyWebsite</h1>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <h2>Menu</h2>
+        <p>Welcome to our website. Explore the following sections to learn more:</p>
+        <ul class="menu-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="form-container">
+            <h2>Login</h2>
+            <p>Please fill in your details below to access your account.</p>
+            <form id="login-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <p class="form-info">Not registered yet? <a href="#register">Create an account</a> to enjoy our services.</p>
+        </div>
+
+        <!-- Additional Text -->
+        <div class="extra-content">
+            <h3>Why Choose Us?</h3>
+            <p>We provide state-of-the-art solutions tailored to your needs. Our platform is designed for seamless user experience and advanced security.</p>
+            <p>Whether you're looking to manage your projects, communicate with teams, or explore new opportunities, we’ve got you covered.</p>
+        </div>
+    </main>
+</body>
+</html>
